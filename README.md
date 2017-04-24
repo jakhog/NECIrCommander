@@ -8,7 +8,6 @@ This code is a slightly modified version of [this Adafruit project](https://gith
 - `Invalid packet!` if something whent wrong while decoding.
 
 ### NECCommander
-This code waits for commands on the format `COMMAND[,REPEAT]` on the serial port, and sends the corresponding code using the NEC encoding through pin 12 (repeated the specified amount of times). Simply connect ground to the sleeve and pin 12 to the tip of a mini-jack plug, insert it into the IR-IN port of the NAD325BEE and greatness is ensued :smile:.
+This code waits for commands on the format `COMMAND[,REPEAT]` on the serial port, and sends the corresponding code using the NEC encoding through pin 12 (repeated the specified amount of times). Simply connect ground to the sleeve and pin 12 to the tip of a mini-jack plug, insert it into the IR-IN port of the NAD325BEE and greatness is ensured :smile:.
 
 Currently, the following commands are implemented: `ON`, `OFF`, `CD`, `TUNER`, `AUX`, `DISC`, `TAPEMON`, `TAPE2`, `VIDEO1`, `VIDEO2`, `VIDEO3`, `VOLUP`, `VOLDOWN` and `MUTE`.
-
